@@ -5,7 +5,7 @@ import Cards from "../components/Cards";
 import Filter from "../components/Filter";
 import Header from "../components/Header";
 
-function App() {
+export default function Home() {
   const [selectedFilter, setSelectedFilter] = useState(0);
   return (
     <div className="App">
@@ -18,5 +18,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
