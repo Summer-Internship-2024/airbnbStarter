@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import { HashRouter as Router,Routes,Route } from "react-router-dom";
 
+var account_id = -1;
+
 function App() {
   return (
     <Router>
